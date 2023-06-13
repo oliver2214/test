@@ -4,8 +4,7 @@ student_names = ['Camila Rodriguez', 'Juan Cruz', 'Dan Richards', 'Sam Boyle', '
 student_grades = [86, 98, 89, 92, 45, 67, 89, 90, 100, 98, 10, 96, 93]
 
 result = [{i:{j:k}} for i, j, k in zip(student_ids, student_names, student_grades)]
-print(result)
+print(result[1])
 
-for _ in range(5):
-    print(1)
-
+for i in range(len(result)):
+    print(result[i])
